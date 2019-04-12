@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tea.teaphone">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LichSuMuaHangActivity" />
+        <activity android:name=".ChiTietLichSuMuaHangActivity" />
+        <activity android:name=".ChiTietSanPhamActivity" />
+        <activity android:name=".ChinhSuaTTKActivity" />
+        <activity android:name=".DanhSachSanPhamActivity" />
+        <activity android:name=".DangKiActivity" />
+        <activity android:name=".ThongTinActivity" />
+        <activity android:name=".ThongTinKhachHangActivity" />
+        <activity android:name=".ThongTinTaiKhoanActivity" />
+        <activity android:name=".TrungTamTroGiupActivity" />
+        <activity android:name=".GioHangActivity" />
+        <activity android:name=".DangNhapActivity"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThongTinTaiKhoanActivity"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarTTTK"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:title="@string/title_activity_thong_tin_tai_khoan"
+        android:background="@color/colorToolbar">
+
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/thong_tin_dang_nhap"
+                android:textColor="@color/colorTextView"
+                android:textSize="25sp"
+                android:padding="16dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/border2"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tai_khoan"
+                    android:textSize="20sp"
+                    android:textColor="@color/colorTextView"/>
+                <TextView
+                    android:id="@+id/tvTaiKhoan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:textSize="22sp" />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/tvThayDoiMatKhau"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border2"
+                android:textSize="20sp"
+                android:textColor="@color/colorTextView"
+                android:text="@string/thay_doi_mat_khau"
+                android:padding="16dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/line_phan_cach"
+                android:textSize="25sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/thong_tin_giao_nhan_hang"
+                android:textColor="@color/colorTextView"
+                android:textSize="25sp"
+                android:padding="16dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:text="      Khách hàng có thể sử dụng lại những thông tin dưới đây cho những đơn hàng sau này. \nGhi chú: SĐT sẽ dùng để đổi mật khẩu và lấy lại mật khẩu."/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/tvChinhSua"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/holo_red_light"
+                    android:textSize="18sp"
+                    android:text="Chỉnh Sửa"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="8dp"/>
+            </RelativeLayout>
+            <TextView
+                android:id="@+id/tvHoTen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="@color/colorTextView"
+                android:background="@drawable/border2"
+                android:layout_marginTop="8dp"
+                android:padding="16dp"/>
+            <TextView
+                android:id="@+id/tvDiaChi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="@color/colorTextView"
+                android:background="@drawable/border2"
+                android:padding="16dp"/>
+            <TextView
+                android:id="@+id/tvSDT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="@color/colorTextView"
+                android:background="@drawable/border2"
+                android:padding="16dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

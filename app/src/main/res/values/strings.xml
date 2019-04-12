@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Tea Light Phone</string>
+    <string name="title_activity_thong_tin">Map</string>
+    <string name="title_activity_dang_nhap">Đăng Nhập</string>
+    <string name="title_activity_dang_ki">Đăng Kí</string>
+    <string name="title_activity_thong_tin_tai_khoan">Thông Tin Tài Khoản</string>
+    <string name="title_activity_chinh_sua_tttk">Chỉnh Sửa Thông Tin Tài Khoản</string>
+    <string name="title_recyclerview_san_pham_moi_nhat">Sản Phẩm Mới Nhất</string>
+    <string name="text_view_all">Xem thêm ></string>
+    <string name="title_recyclerview_iphone">Iphone</string>
+    <string name="title_recyclerview_oppo">Oppo</string>
+    <string name="title_recyclerview_samsung">SamSung</string>
+    <string name="title_recyclerview_xiaomi">Xiaomi</string>
+    <string name="kiem_tra_ket_noi">Bạn hãy kiểm tra kết nối Internet</string>
+    <string name="giasp">%s VNĐ</string>
+    <string name="het_du_lieu_hien_thi">Đã hết sản phẩm để hiện thị</string>
+    <string name="gio_hang_trong">Giỏ hàng của bạn đang trống</string>
+    <string name="da_them_vao_gio_hang">Sản phẩm đã được thêm vào giỏ hàng !!!</string>
+    <string name="TK_MK_trong">Tài Khoản và Mật Khẩu không được để trống</string>
+    <string name="dang_nhap_thanh_cong">Đăng Nhập Thành Công</string>
+    <string name="dang_ki_thanh_cong">Đăng Kí Thành Công</string>
+    <string name="sai_tai_khoan_hoac_mat_khau">Tài Khoản hoặc Mật Khẩu không đúng</string>
+    <string name="mat_khau_khong_trung">Mật Khẩu không trùng khớp</string>
+    <string name="tai_khoan_da_ton_tai">Tài Khoản đã tồn tại</string>
+    <string name="ho_ten">Họ Tên: </string>
+    <string name="dia_chi">Địa Chỉ: </string>
+    <string name="sdt">SĐT: </string>
+    <string name="hint_ho_ten">Nhập họ tên khách hàng</string>
+    <string name="hint_dia_chi">Nhập địa chỉ giao hàng</string>
+    <string name="hint_sdt">Nhập số điện thoại</string>
+    <string name="button_text_xac_nhan">Xác nhận</string>
+    <string name="thong_tin_dang_nhap">Thông tin đăng nhập</string>
+    <string name="tai_khoan">Tài Khoản:</string>
+    <string name="mat_khau">Mật Khẩu:</string>
+    <string name="thay_doi_mat_khau"><![CDATA[Thay đổi mật khẩu >]]></string>
+    <string name="thong_tin_giao_nhan_hang">Thông tin giao nhận hàng</string>
+</resources>

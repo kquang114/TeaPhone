@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content "
+        android:layout_height="wrap_content"
+        android:text="Mã đơn hàng: #12"
+        android:textSize="20sp"
+        android:textColor="@color/colorTextView" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ngày mua hàng: 03/03/2019"
+        android:textSize="20sp"
+        android:textColor="@color/colorTextView"
+        android:layout_marginTop="4dp"/>
+    <TextView
+        android:layout_width="wrap_content "
+        android:layout_height="wrap_content"
+        android:text="Tên người nhận: Võ Quang Tín"
+        android:textSize="20sp"
+        android:textColor="@color/colorTextView"
+        android:layout_marginTop="4dp"/>
+    <TextView
+        android:layout_width="wrap_content "
+        android:layout_height="wrap_content"
+        android:text="Địa chỉ: 123 Lạc Long Quân, P3, Q11, TpHCM"
+        android:textSize="20sp"
+        android:textColor="@color/colorTextView"
+        android:layout_marginTop="4dp"/>
+    <TextView
+        android:layout_width="wrap_content "
+        android:layout_height="wrap_content"
+        android:text="SĐT: 0773961828"
+        android:textSize="20sp"
+        android:textColor="@color/colorTextView"
+        android:layout_marginTop="4dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tình trạng đơn hàng: Đã giao"
+            android:textSize="25sp"
+            android:textColor="@android:color/holo_red_light"
+            android:textStyle="bold|italic"
+            android:layout_marginTop="4dp"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+
+</LinearLayout>

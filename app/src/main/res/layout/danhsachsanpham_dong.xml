@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    android:background="@android:color/white">
+    <ImageView
+        android:id="@+id/imgSP"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:padding="2dp"
+        android:layout_marginStart="4dp"
+        android:layout_gravity="center">
+        <TextView
+            android:id="@+id/tvTenSP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ten san pham"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/tvGiaSP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gia san pham"
+            android:textSize="16sp"
+            android:textColor="@android:color/holo_blue_light"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/tvMoTaSP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mo ta san pham"
+            android:textSize="14sp"
+            android:textColor="@android:color/darker_gray"
+            android:textStyle="italic"/>
+    </LinearLayout>
+
+</LinearLayout>

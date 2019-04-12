@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChiTietSanPhamActivity"
+    android:orientation="vertical"
+    android:background="@android:color/white">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarChiTietSP"
+        app:title="Chi Tiết Sản Phẩm"
+        android:background="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="10"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="9">
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+                    <ImageView
+                        android:id="@+id/imgChiTietSP"
+                        android:adjustViewBounds="true"
+                        android:layout_gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp" />
+                    <TextView
+                        android:id="@+id/tvTenCTSP"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Tên sản phẩm"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorTextView"
+                        android:textSize="20sp"
+                        android:layout_marginTop="4dp"/>
+                    <TextView
+                        android:id="@+id/tvGiaCTSP"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Giá sản phẩm"
+                        android:textStyle="bold"
+                        android:textColor="@android:color/holo_red_light"
+                        android:textSize="22sp"
+                        android:layout_marginTop="4dp"/>
+                    <TextView
+                        android:text="Chi Tiết Sản Phẩm"
+                        android:textSize="24sp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="4dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:id="@+id/tvMoTaCTSP"
+                        android:text="Chi Tiết Sản Phẩm"
+                        android:textSize="18sp"
+                        android:layout_marginTop="4dp"
+                        android:textColor="@color/colorTextView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="Đánh Giá sản phẩm"/>
+                </LinearLayout>
+
+            </ScrollView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:weightSum="10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:padding="6dp">
+                    <Button
+                        android:layout_weight="5"
+                        android:id="@+id/btnThemVaoGioHang"
+                        android:text="Thêm vào giỏ hàng"
+                        android:background="@color/colorAccent"
+                        android:textSize="16sp"
+                        android:textColor="@color/colorButtonText"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content" />
+
+                    <Button
+                        android:id="@+id/btnMuaNgay"
+                        android:text="Mua Ngay"
+                        android:background="@color/colorAccent"
+                        android:textSize="16sp"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="8dp"
+                        android:textColor="@color/colorButtonText"
+                        android:layout_weight="5"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

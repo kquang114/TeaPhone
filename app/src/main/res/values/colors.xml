@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="active_dots">#FFFFFF</color>
+    <color name="colorTextView">@android:color/black</color>
+    <color name="colorToolbar">@android:color/holo_blue_light</color>
+    <color name="colorViewAll">#CC99FF</color>
+    <color name="colorButtonText">@android:color/white</color>
+</resources>
